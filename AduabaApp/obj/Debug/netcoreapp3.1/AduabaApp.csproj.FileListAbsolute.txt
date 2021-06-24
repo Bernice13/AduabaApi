@@ -1,0 +1,5 @@
+C:\Users\Bernice\Desktop\AduabaAppSolution\AduabaApp\obj\Debug\netcoreapp3.1\AduabaApp.csproj.AssemblyReference.cache
+C:\Users\Bernice\Desktop\AduabaAppSolution\AduabaApp\obj\Debug\netcoreapp3.1\AduabaApp.AssemblyInfoInputs.cache
+C:\Users\Bernice\Desktop\AduabaAppSolution\AduabaApp\obj\Debug\netcoreapp3.1\AduabaApp.AssemblyInfo.cs
+C:\Users\Bernice\Desktop\AduabaAppSolution\AduabaApp\obj\Debug\netcoreapp3.1\AduabaApp.csproj.CoreCompileInputs.cache
+C:\Users\Bernice\Desktop\AduabaAppSolution\AduabaApp\obj\Debug\netcoreapp3.1\AduabaApp.MvcApplicationPartsAssemblyInfo.cache
