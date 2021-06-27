@@ -11,8 +11,10 @@ namespace AduabaApp.Models
     public class Order
     {
         public int OrderId { get; set; }
+        public virtual ApplicationUser User { get; set; }
+        public ApplicationUser UserId { get; set; }
+
         public DateTime OrderDate { get; set; } = DateTime.Now;
-        public User RegisterdUser { get; set; }
         
         [Required(ErrorMessage = "First Name is required")]
         [DisplayName("First Name")]
@@ -47,5 +49,7 @@ namespace AduabaApp.Models
         public bool HasBeenShipped { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
+       
     }
 }
+

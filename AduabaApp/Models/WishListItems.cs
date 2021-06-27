@@ -8,9 +8,9 @@ namespace AduabaApp.Models
 {
     public class WishListItems
     {[Key]
-        public string WishListId { get; set; }
-        public Item Item{ get; set; }
-        public ICollection<Item> Wishes { get; set; }
+        public int WishListId { get; set; }
+        public virtual Item Item { get; set; }
+        public int ItemId { get; set; }
         public int Quantity { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }

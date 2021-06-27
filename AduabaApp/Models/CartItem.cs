@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace AduabaApp.Models
 {
-    public class CartItems
+    public class CartItem
     {[Key]
         public string CartId { get; set; }
-        public Item Item { get; set; }
-        public ICollection<Item> Items { get; set; }
-        public virtual Product Product{ get; set; }
-        public string ItemName { get; set; }
+        public virtual Item Item { get; set; }
+        public int ItemId { get; set; }
+
         public int Quantity { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        
     }
+    
 }

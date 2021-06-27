@@ -10,7 +10,7 @@ namespace AduabaApp.Models
 {
     public class PaymentCard
     { [Key]
-        public User UserId { get; set; }
+        public ApplicationUser UserId { get; set; }
         [Required(ErrorMessage = "First Name is required")]
         [DisplayName("FirstName"), StringLength(50)]
         public string FirstName { get; set; }

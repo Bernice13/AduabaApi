@@ -7,17 +7,21 @@ using System.Threading.Tasks;
 namespace AduabaApp.Models
 {
     public class Item
-    {
-        [Key]
+    {[Key]
         public string ItemId { get; set; }
-        public Product Product { get; set; }
-        public Product ProductId { get; set; }
-        [Required]
+        public Category CategoryId { get; set; }
+        public Category Category { get; set; }
+        [Required, Display(Name = "Product Name"), StringLength(100)]
         public string ItemName { get; set; }
-        [Required]
-        public decimal ItemAmount { get; set; }
-        [Required]
+        [Required, StringLength(1000)]
+        [Display(Name = "Product Description"), DataType(DataType.MultilineText)]
+        public string ItemDescription { get; set; }
         public string ItemQuantity { get; set; }
+
+        public string ImagePath { get; set; }
+
+        [Required, Display(Name = "Price")]
+        public decimal UnitPrice { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
     }

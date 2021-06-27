@@ -8,8 +8,8 @@ namespace AduabaApp.AduabaInterface
 {
     public interface IUser
     {
-        void RegisterUser(User user);
-        void LogIn(User logincredentials);
+        void RegisterUser(ApplicationUser user);
+        void LogIn(ApplicationUser logincredentials);
         void SocialSignIn();
         void ResetPassword();
         void AddItemToCart(Item item);
@@ -23,7 +23,7 @@ namespace AduabaApp.AduabaInterface
         void RemoveItemsFromWishList(List<Item> itemsToRemove);
         void ConvertWishListToOrder(WishListItems listItems);
 
-        void EditAccountDetails(User newDetails);
+        void EditAccountDetails(ApplicationUser newDetails);
         void KeepTrackOfOrder();
 
 

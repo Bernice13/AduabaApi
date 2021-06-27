@@ -13,10 +13,11 @@ namespace AduabaApp.Models
         public string CategoryId { get; set; }
         [Required, StringLength(50), Display(Name = "Name")]
         public string CategoryName { get; set; }
-        [DisplayName(" Product Description"), Display(Name = "Product Description"), DataType(DataType.MultilineText)]]
+        [DisplayName(" Category Description"), Display(Name = "Category Description"), DataType(DataType.MultilineText)]]
         public string Description { get; set; }
-        public virtual ICollection<Product> Products { get; set; }
+        
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
+        public virtual List<Item> Items { get; set; }
     }
 }

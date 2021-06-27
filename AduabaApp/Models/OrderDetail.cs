@@ -10,9 +10,9 @@ namespace AduabaApp.Models
     {
         [Key]
         public int OrderDetailId { get; set; }
-        public Order OrderId { get; set; }
-        public User Username { get; set; }
-        public Product ProductId { get; set; }
+        public int OrderId { get; set; }
+        public string Username { get; set; }
+        public int ItemId { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
        

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AduabaApp.AduabaInterface
 {
-   public interface IAdmin
+   public interface IServices
     {
         void Login();
         void AddItemtoStore(Item item);
