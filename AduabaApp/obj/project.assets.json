@@ -5729,11 +5729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bernice\\Desktop\\AduabaAppSolution\\AduabaApp\\AduabaApp.csproj",
+      "projectUniqueName": "C:\\Users\\Bernice\\Desktop\\AduabaApi\\AduabaApp\\AduabaApp.csproj",
       "projectName": "AduabaApp",
-      "projectPath": "C:\\Users\\Bernice\\Desktop\\AduabaAppSolution\\AduabaApp\\AduabaApp.csproj",
+      "projectPath": "C:\\Users\\Bernice\\Desktop\\AduabaApi\\AduabaApp\\AduabaApp.csproj",
       "packagesPath": "C:\\Users\\Bernice\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bernice\\Desktop\\AduabaAppSolution\\AduabaApp\\obj\\",
+      "outputPath": "C:\\Users\\Bernice\\Desktop\\AduabaApi\\AduabaApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bernice\\AppData\\Roaming\\NuGet\\NuGet.Config",
